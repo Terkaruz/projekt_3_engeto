@@ -1,0 +1,45 @@
+# Ignore PyCharm project settings folder
+.idea/
+
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments (venv, virtualenv, pipenv, conda)
+venv/
+env/
+*.venv/
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore dependency and build files
+*.egg-info/
+dist/
+build/
+site-packages/
+
+# Ignore temporary files and logs
+.DS_Store  # macOS metadata files
+Thumbs.db  # Windows metadata files
+*.log
+*.bak
+*.swp
+
+# Ignore testing and debugging files
+.coverage
+htmlcov/
+pytest_cache/
+nosetests.xml
+coverage.xml
+.cache/
+
+# Ignore Docker-related files (if using Docker)
+docker-compose.override.yml
+.env
+
+# Ignore editor-specific files (e.g., VS Code)
+.vscode/
+*.code-workspace
